@@ -30,3 +30,23 @@ input {
     border: none;
     outline: none;
 }
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+    input {
+      width: 75%;
+    }
+  
+    .copy-btn {
+      position: absolute;
+      right: 0;
+      background: white;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+    }
+  }
+  
