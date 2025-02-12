@@ -1,0 +1,36 @@
+.letter {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -45%;
+    transition: 0.5s ease-in-out; 
+    padding: 20px;
+  }
+  
+  .question {
+    color: black;
+  }
+.btn-wrap {
+  position: relative;
+  display: flex;
+  justify-content: start;
+}
+
+.yes {
+  width: 40%;
+  background-color: #ff4081;
+}
+
+.no {
+  position: absolute;
+  background-color: #fff;
+  color: #ff4081;
+  border: 1px solid #FF84AE;
+  width: 40%;
+  right: 0;
+  z-index: 10;
+}

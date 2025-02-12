@@ -1,0 +1,32 @@
+.settings{
+    background: #0005;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+input {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    outline: none;
+}

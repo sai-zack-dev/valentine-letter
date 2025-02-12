@@ -1,0 +1,29 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #fce4ec;
+    position: relative;
+  }
+  
+  .settings-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 50px;
+    outline: none;
+    transition: 0.5s ease;
+    z-index: 10;
+  }
+  .settings-btn:focus{
+    outline: none;
+  }
+  .settings-btn:hover {
+    color: #f50057;
+  }

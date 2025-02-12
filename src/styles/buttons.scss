@@ -1,0 +1,17 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
